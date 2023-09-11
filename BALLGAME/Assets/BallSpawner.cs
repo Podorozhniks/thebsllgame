@@ -54,9 +54,9 @@ public class BallSpawner : MonoBehaviour
         // Assign a tag to the ball
         newBall.tag = "Ball";
 
-        // Change the ball's color randomly
+        // Assign one of the scoring colors to the ball randomly
         Renderer rend = newBall.GetComponent<Renderer>();
-        rend.material.color = new Color(Random.value, Random.value, Random.value);
+        rend.material.color = scoringColors[Random.Range(0, scoringColors.Length)];
     }
 }
 

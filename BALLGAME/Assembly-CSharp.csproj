@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\BallSpawner.cs" />
     <Compile Include="Assets\PlatformMove.cs" />
+    <Compile Include="Assets\BallTracker.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
