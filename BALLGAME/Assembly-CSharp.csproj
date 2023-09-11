@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PlatformMove.cs" />
+    <Compile Include="Assets\SpawnBalls.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
